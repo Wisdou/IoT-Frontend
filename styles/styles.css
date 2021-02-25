@@ -87,7 +87,6 @@ a:hover {
 
 .control-menu {
     margin: 5px 10px 5px 10px;
-    border-right: 2px solid #a7d7fa;
     margin: 5px;
     display: flex;
     flex: 2;
@@ -95,21 +94,48 @@ a:hover {
 
 .flow-menu {
     margin: 5px 10px 5px 10px;
+    justify-content: flex-start;
     display: flex;
-    flex: 2;
+    flex: 1;
 }
 
-.center-space {
-    flex: 8;
+.center-menu {
+    margin: 5px;
+    border-left: 2px solid #005592;
+    border-right: 2px solid #005592;
+    flex: 15;
 }
 
 .right-menu {
-    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 5;
+}
+
+.right-menu button {
+    background-color: #7cbdec;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
 }
 
 .mainField {
+    overflow: hidden;
     display: flex;
-    background-color: aqua;
     height: 100%;
-    width: 100%;
+}
+
+.elementsField {
+    background-color: aqua;
+    flex: 4;
+}
+
+.elementsLibrary {
+    background-color: rgb(5, 255, 109);
+    flex: 1;
+}
+
+.mainField p {
+    margin: 1000px 100px 1000px 100px;
 }
