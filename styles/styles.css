@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #acdcff;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.header-logo {
+    flex: 1;
+}
+
+.header-left {
+    flex: 40;
+    font-weight: bold;
+}
+
+.headerLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.header-right a:hover {
+    background-color: #94d3ff;
+}
+
+.header-user-img {
+    width: 60px;
+    height: 40px;
+}
+
+.header-right {
+    flex: 10;
+}
+
+.header-left a {
+    padding: 20px 10px 20px 10px;
+    line-height: 40px;
+}
+
+.header-right a {
+    padding: 20px 10px 20px 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-menu {
+    display: flex;
+    background-color: #dbedfa;
+}
+
+.main-menu img {
+    margin: 2px 5px 2px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.main-menu button {
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    background-color: inherit;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-menu button:hover {
+    background-color: #a7d7fa;
+}
+
+.control-menu {
+    margin: 5px 10px 5px 10px;
+    border-right: 2px solid #a7d7fa;
+    margin: 5px;
+    display: flex;
+    flex: 2;
+}
+
+.flow-menu {
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    flex: 2;
+}
+
+.center-space {
+    flex: 8;
+}
+
+.right-menu {
+    flex: 4;
+}
+
+.mainField {
+    display: flex;
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
