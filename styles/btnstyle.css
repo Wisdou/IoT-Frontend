@@ -1,0 +1,18 @@
+.menu_button {
+    display: flex;
+}
+
+.menu_button img {
+    margin: 0px 20px 0px 5px;
+    width: 20px;
+    height: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu_button span {
+    margin: 2px 0px 2px 5px;
+    line-height: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
